@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Halimo Ali</div>
+    
+
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contacts" >Contacts</a></li>  
+            
+        </ul>
+    </div>
+</nav>
+<nav id="h-nav">
+    <div class="logo">Halimo Ali</div>
+    <div class="h-menu">
+        <div class="h-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </div>
+        <div class="menu-links">
+        <li><a href="#about" onclick="togglemenu()">About</a></li>
+            <li><a href="#Experience" onclick="togglemenu()">Experience</a></li>
+            <li><a href="#Projects" onclick="togglemenu()">Projects</a></li>
+            <li><a href="#Contacts" onclick="togglemenu()">Contacts</a></li>
+            </div>
+
+    </div>
+</nav>
+<section id="profile">
+    <div class="section_pic-container">
+        <img src="./Assests/me.jpeg" alt="Halimo Ali Profile pic"/>
+    </div>
+    <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Halimo</h1>
+        <p class="st2">Frontend Developer</p>
+        <div class="button-container">
+            <button class="bbc2" onclick="window.open('')"> Download CV</button>
+            <button class="bbc3" onclick="window.open('')"> Contact info</button>
+        </div>
+      
+        
+    </div>
+    <div id="Socials-container">
+        <img src="./Assests/linkedIn.png" alt="My linkedin Profile" class="icon" onclick="location.href= '//www.linkedin.com/in/halimo-a-809265b9/:'">
+        <img src="./Assests/git.png" alt="My Github Profile" class="icon" onclick="location.href='https:'//github.com/Halimo11">
+    </div>
+
+</section>
+<section id="About">
+    <P class="section_text_p1"> Get To Know Me More</P>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section_pic-container">
+            <img src="./Assests/black/white.jpg" alt="Profile Picture" 
+            class="about-pic">
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./Assests/we.png" alt="Experience icon"
+                    class="icon">
+
+                    <h3> Experience</h3>
+                    <p> <br> Frontend Development</p>
+
+                </div>
+                <div class="details-container">
+                    <img src="./Assests/edu.jpeg" alt="Education"
+                    class="icon">
+
+                    <h3>Education</h3>
+                    <p> B.Sc. Bachelors Degree </p>
+
+
+                </div>
+
+            </div>
+            <div class="text-container">
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda aut illum excepturi cum perferendis veniam eius suscipit consectetur porro nesciunt non, voluptatem quaerat culpa, quos laboriosam doloremque veritatis dolore facilis.
+
+                </p>
+
+
+            </div>
+
+        </div>
+    </div>
+    <img src="./Assests/sa.png" alt=" arrow icon"
+    class="icon-arrow" onclick="location.href='./#Experience'">
+</section>
+<section id="Experience">
+    <p class="section_text_p1"> Explore My</p>
+    <h1 class="title"> Experience</h1>
+    <div class="about-containers">
+
+    <div class="details-container">
+        <h2 class="Experience-sub-title"> Frontend Development</h2>
+        <div class="article container">
+            <article>
+                <img src="./Assests/check.jpeg" alt="Experience icon"
+                class="icon">
+                <div>
+                    <h3>HTML</h3>
+                    <P> Expereinced</P>
+                </div>
+            </article>
+            <article>
+                <img src="./Assests/check.jpeg" alt="Experience icon"
+                class="icon">
+                <div>
+                    <H3>CSS</H3>
+                    <P> Expereinced</P>
+                </div>
+            </article>
+            <article>
+                <img src="./Assests/check.jpeg" alt="Experience icon"
+                class="icon">
+                <div>
+                    <H3>Javascript</H3>
+                    <P> Expereinced</P>
+                </div>
+            </article>
+            <article>
+                <img src="./Assests/check.jpeg" alt="Experience icon"
+                class="icon">
+                <div>
+                    <h3>React</h3>
+                    <P> Intermediate</P>
+                </div>
+            </article>
+            <article>
+                <img src="./Assests/check.jpeg" alt="Experience icon"
+                class="icon">
+                <div>
+                    <h3>Github</h3>
+                    <P> Expereinced</P>
+                </div>
+                <article>
+                    <img src="./Assests/check.jpeg" alt="Experience icon"
+                    class="icon">
+                    <div>
+                        <h3>git</h3>
+                        <P> Expereinced</P>
+                    </div>
+                </article>
+            </article>
+            
+        </div>
+
+    </div>
+
+    </div>
+  
+    </div>
+    <img src="./Assests/sa.png" alt=" arrow icon"
+    class="icon-arrow" onclick="location.href='./#Experience'">
+
+</section>
+
+<section id="Projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title"> Projects</h1>
+    <div class="Experience-details-container">
+        <div class="article-container">
+            <img src="" alt="Project 1"
+            class="project-img">
+        </div>
+        <h2 class="project-title"> Project one</h2>
+        <div class="btn-container">
+            <button class="btn-color-2" onclick="location.href= 'httpps://github.com/'"></button>
+
+            <h2 class="project-title"> Project one</h2>
+        <div class="btn-container">
+            <button class="btn-color-2" onclick="location.href= 'httpps://github.com/'"></button>
+
+            <h2 class="project-title"> Project one</h2>
+        <div class="btn-container">
+            <button class="btn-color-2" onclick="location.href= 'httpps://github.com/'"></button>
+        </div>
+    </div>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>

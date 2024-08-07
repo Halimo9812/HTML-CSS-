@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Building UP/contact"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html-css-js portfolio"
+	}
+}
